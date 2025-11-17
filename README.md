@@ -1,4 +1,3 @@
-```markdown
 # Coffee Ghor – Coffee Shop Landing Page
 
 A modern, fully responsive coffee shop landing page built with **React**, **Redux Toolkit**, and **Tailwind CSS**.  
@@ -47,7 +46,6 @@ https://coffee-shop-landing-page-theta.vercel.app/
 ## 📁 Folder Structure
 
 ```
-
 src/
 ├── components/
 │   ├── Header.js
@@ -63,8 +61,7 @@ src/
 │   ├── favoritesSlice.js
 │   └── store.js
 └── App.js
-
-````
+```
 
 ---
 
@@ -74,22 +71,19 @@ src/
 ```bash
 git clone https://github.com/Ajji20386/coffee-shop-landing-page.git
 cd coffee-shop-landing-page
-````
+```
 
 ### 2️⃣ Install dependencies
-
 ```bash
 npm install
 ```
 
 ### 3️⃣ Start development server
-
 ```bash
 npm run dev
 ```
 
 App runs at:
-
 ```
 http://localhost:5173
 ```
@@ -109,15 +103,12 @@ screenshots/
 
 ## 📝 Credits
 
-* Images: Unsplash
-* Icons: Lucide React
-* Map: OpenStreetMap
+- Images: Unsplash  
+- Icons: Lucide React  
+- Map: OpenStreetMap  
 
 ---
 
 ## 📄 License
 
 This project is for educational and internship submission purposes.
-
-```
-```
