@@ -1,23 +1,3 @@
-Ahh I see EXACTLY what’s happening — **GitHub stopped rendering the rest of your README after “## 📁 Folder Structure”** because:
-
-👉 Your folder structure code block **was broken**
-👉 The backticks ``` were messed up
-👉 GitHub thinks the whole rest of the README is still inside a code block
-
-That’s why **ALL SECTIONS after Folder Structure disappeared or look wrong.**
-It’s not your fault — this happens when even a single backtick is misplaced.
-
----
-
-# ✅ **Here is the FIXED version**
-
-This version has **perfect code fences**, so GitHub will render everything correctly.
-
-Copy–paste THIS EXACT VERSION ↓
-(No changes, no invisible characters, fully clean.)
-
----
-
 ```markdown
 # Coffee Ghor – Coffee Shop Landing Page
 
@@ -40,7 +20,7 @@ https://coffee-shop-landing-page-theta.vercel.app/
 
 ### 🔸 Landing Page Sections
 - Hero section with café name & tagline  
-- Menu section with 8 coffee items (name, price, image)  
+- Menu section with 8 coffee items  
 - About section describing Coffee Ghor  
 - Testimonials section (3 Bangladeshi reviews)  
 - Contact section with map embed + hours  
@@ -49,18 +29,18 @@ https://coffee-shop-landing-page-theta.vercel.app/
 - Light/Dark mode toggle  
 - Theme saved in `localStorage`  
 - Smooth color transitions  
-- Add to Favorites button on menu items  
+- Add to Favorites button  
 - Favorites counter in header  
 - Smooth scroll navigation  
 - Hamburger menu for mobile  
 
 ### 🔸 Technical Stack
 - React.js (Vite)  
-- Redux Toolkit (theme + favorites)  
+- Redux Toolkit  
 - Tailwind CSS  
 - Lucide React Icons  
 - LocalStorage persistence  
-- Fully responsive (mobile/tablet/desktop)  
+- Fully responsive design  
 
 ---
 
@@ -78,12 +58,10 @@ src/
 │   ├── Testimonials.js
 │   ├── Contact.js
 │   └── Footer.js
-│
 ├── redux/
 │   ├── themeSlice.js
 │   ├── favoritesSlice.js
 │   └── store.js
-│
 └── App.js
 
 ````
@@ -120,8 +98,6 @@ http://localhost:5173
 
 ## 📸 Screenshots
 
-Add screenshots in:
-
 ```
 screenshots/
 ├── mobile.png
@@ -144,19 +120,4 @@ screenshots/
 This project is for educational and internship submission purposes.
 
 ```
-
----
-
-# 🎯 WHY THIS VERSION WORKS
-
-✔ Code block for folder structure is **opened and closed correctly**  
-✔ No hidden characters  
-✔ No duplicated backticks  
-✔ No markdown breaking the parser  
-
-Your README will now render perfectly.
-
----
-
-If you want, send me your **updated README screenshot**, and I’ll confirm it’s fixed.
 ```
