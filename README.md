@@ -93,10 +93,7 @@ http://localhost:5173
 ## 📸 Screenshots
 
 ```
-screenshots/
-├── mobile.png
-├── tablet.png
-└── desktop.png
+
 ```
 
 ---
