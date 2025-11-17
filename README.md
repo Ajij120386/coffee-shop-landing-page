@@ -100,10 +100,13 @@ http://localhost:5173
 
 ## 📸 Screenshots
 
-
+Add your screenshots in a folder like:
 
 ```
-
+screenshots/
+├── mobile.png
+├── tablet.png
+└── desktop.png
 ```
 
 ---
@@ -116,7 +119,9 @@ http://localhost:5173
 
 ---
 
+## 📄 License
 
+This project is for educational and internship submission purposes.
 
 ```
 ```
